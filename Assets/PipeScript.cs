@@ -3,7 +3,7 @@ using UnityEngine;
 public class PipeScript : MonoBehaviour
 {
     public float moveSpeed = 2;
-    public Logic logic;
+    private Logic logic;
     private float deadZone = -30;
     void Start()
     {
